@@ -7,7 +7,7 @@
 3. OOP PHP Programming Language
 4. MYSQL Realational Database
 
-:closed_book: ## **Features**
+## :closed_book: **Features**
 1. Visitor or user can browse through website to check food items.
 2. Website is fully dynamic and responsive
 3. Admin can manage the website from the backend 
