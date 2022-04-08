@@ -1,0 +1,1767 @@
+
+/*=============================================================
+    TABLE OF CONTENTS
+    =============================
+    01 - Colors Stylesheet inclusion
+    02 - General & Basic Styles
+         02.1 - Crousel Owl Default Styles
+    03 - Top Bar CSS
+    04 - HEADER CSS
+    05 - Banner Style CSS
+    06 - Userful Elements
+         06.1 - Call to action box
+         06.2 - Welcome Message box
+         06.3 - Section title
+         06.4 - Tabs Styling
+    07 - Page loading animation
+    08 - Meet your Team
+    09 - Services Section
+    10 - Testimonials
+    11 - Pricing Tables
+    12 - Products Section CSS
+    13 - Latest News
+    14 - Reasons Section
+    15 - Page Styles
+    16 - Blog Page Styles
+    17 - Title Section CSS
+    18 - 404 Page CSS
+    19 - Sidebars CSS
+    20 - Footer
+    21 - Mobile Adjustments Media Queries
+         21.1 - Top Navigation CSS
+         21.2 - Footer Settings
+  =============================================================*/
+/*
+=========================================
+Note: Colors CSS is inside
+css/default-colors.css << File Customize easily.
+==========================================*/
+
+
+/*-------------------------
+  01 - Colors Stylesheet
+       inclusion
+-------------------------*/
+@import 'css/default-colors.css';
+
+/*-------------------------
+  02 - General & Basic
+       Styles
+-------------------------*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	font-size:100%;
+	line-height: 25px;
+}
+h1, h1 a {
+	font-size: 2rem;
+    margin-bottom: 15px;
+}
+h2, h2 a {
+	font-size: 1.75rem;
+}
+h3, h3 a {
+	font-size: 1.50rem;
+}
+h4, h4 a {
+	font-size: 1.25rem;
+}
+h5, h6, h5 a, h6 a {
+	font-size:1rem;
+}
+label, p, ul, ol, a, blockquote, input, textarea, select, [type=date], [type=text], [type=email] {
+	font-size: 0.875rem;
+	line-height:25px;
+}
+h1,h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+iframe {
+	width:100%;
+	border:0px;
+}
+.button {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+/*-------------------------
+  02.1 Crousel Controls
+       Default Style
+-------------------------*/
+.owl-prev , .owl-next {
+	font-size: 19px;
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    display: table;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+	margin-top:-12px;
+}
+.owl-next {
+	right:-20px;
+}
+.owl-prev {
+	left:-20px;
+}
+.owl-controls {
+	margin: auto;
+    display: block;
+    width: 70px;
+	margin-top:20px;
+}
+.brands-wrap {
+	margin-bottom:80px;
+}
+.bran-logo {
+	padding:5px;
+}
+.bran-logo .thumbnail {
+	margin-bottom:0px;
+}
+.brands-wrap .owl-controls {
+	margin-top:0px;
+}
+/*-------------------------
+  General & Basic Styles End
+-------------------------*/
+
+/*-------------------------
+  03 - Top Bar CSS
+-------------------------*/
+.topbar {
+	border-top:1px solid #ededed;
+	border-bottom:1px solid;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.topbar .socialicons a {
+	margin-left:10px;
+	margin-right:10px;
+}
+.action-box {
+	position:relative;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:14px;
+	display:inline-block;
+}
+.topbar a {
+	font-size:1rem;
+	margin-left:7px;
+	margin-right:7px;
+}
+.topbar .action-box:last-child {
+	border-right:0px;
+	padding-right:0px;
+}
+.action-box p {
+	margin-bottom:0px;
+	line-height:14px;
+}
+.action-box .fa {
+	font-size:18px;
+	line-height:18px;
+	margin-right:10px;
+}
+.text-medium-right {
+	text-align:right;
+}
+/*-------------------------
+  Top Bar CSS ends
+-------------------------*/
+
+/*-------------------------
+  04 - HEADER CSS Starts
+-------------------------*/
+.header-wrap {
+	padding-top:25px;
+	padding-bottom:25px;
+	width: 100%;
+    position: relative;
+    z-index: 1100;
+    background-color: #8ab372;
+    -moz-box-shadow: rgba(0, 0, 0, 0.239216) 0px 4px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.239216) 0px 4px 9px 0px;
+	transform:translateZ(0)
+    -webkit-transform: translateZ(0);
+}
+.header-wrap .logo {
+	padding-top:5.5px;
+	padding-bottom:5.5px;
+}
+.header-wrap .logo img {
+	 height:45px;
+	 width:auto;
+}
+.search-wrap a {
+	font-size:1rem;
+	line-height:54px;
+}
+#search-dropdown input[type=text] {
+	margin-bottom:0px;
+}
+.top-bar {
+	padding:0px;
+	width:calc(100% - 20px);
+	float:left;
+}
+.navigation-icon-title {
+	font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.top-bar ul {
+	margin:0px;
+	font-weight:normal;
+	z-index:9999;
+}
+.top-bar ul .first-sub {
+	border-top:2px solid;
+}
+.top-bar ul li a {
+	text-transform:uppercase;
+	font-size:0.875rem;
+}
+.top-bar ul ul li a {
+	text-transform:capitalize;
+}
+.top-bar {
+	position:relative;
+	font-family: 'Montserrat', sans-serif;
+}
+.top-bar ul {
+	padding: 10px 0px;
+}
+.top-bar ul ul {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.top-bar .is-dropdown-submenu-parent {
+	position:relative;
+}
+.dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a:after {
+	border:0px;
+}
+.dropdown.menu.medium-horizontal>li>a {
+	padding:11px;
+}
+.top-bar .dropdown.menu>li.opens-right>.is-dropdown-submenu {
+	position:absolute;
+	max-width:100%;
+}
+.top-bar h4 {
+	font-weight:normal;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px solid;
+	padding-bottom:10px;
+}
+.top-bar .address h4 {
+	border-bottom:0px;
+	padding-bottom:0px;
+}
+.top-bar li {
+	list-style:none;
+}
+.single-sub ul li a {
+	width:100%;
+	border-bottom:1px dotted;
+	padding:10px;
+	font-weight:normal;
+}
+.responsive-menu ul li a {
+ 	display:block;
+	width:100%;
+ }
+@media screen and (min-width: 40em) {
+.dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a {
+    padding-right: 11px;
+    position: relative;
+}
+}
+/*-------------------------
+  HEADER CSS Ends
+-------------------------*/
+
+/*-------------------------
+  05 - Banner Style CSS
+-------------------------*/
+.main-banner {
+	position:relative;
+	margin-bottom:80px;
+}
+.rev_slider_wrapper {
+	margin:0px auto;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.layer1 {
+	z-index: 5;
+}
+.layer2 {
+	z-index: 6;
+	min-width: 721px;
+	max-width: 721px;
+	white-space: normal;
+	text-align:center;
+}
+.layer3 {
+	z-index: 7;
+	white-space: nowrap;
+	padding:5px 10px !important;
+}
+.layer4 {
+	z-index: 8;
+	white-space: nowrap;
+	outline:none;
+	box-shadow:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.tp-bannertimer {
+	height: 7px !important;
+}
+/*-------------------------
+  Banner Style CSS Ends
+-------------------------*/
+
+/*-------------------------
+  06 - Userful Elements
+-------------------------*/
+.home-module {
+	margin-bottom:80px;
+}
+.icon-box {
+	position:relative;
+	clear:both;
+}
+.icon-box .icon-side {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+    margin-right: 7px;
+}
+.icon-box p {
+	margin-bottom:0px;
+}
+.icon-box .info-side {
+	margin-left:7px;
+	font-size:16px;
+	padding-top:0px;
+	width: calc(100% - 70px);
+}
+.info-side p strong {
+	font-size:18px;
+}
+/*-------------------------
+  06.1 - Call to action box
+-------------------------*/
+.call-to-action {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.call-to-action i {
+	border:1px solid #3b3d42;
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	margin-right:15px;
+}
+.call-to-action h2 span {
+	color:#ffa81d;
+}
+.call-to-action h2 {
+	font-size:1.25rem;
+	font-weight:normal;
+}
+.call-to-action p {
+	margin-bottom:0px;
+}
+.call-to-action .button {
+	margin-bottom:0px;
+}
+/*-------------------------
+  06.2 - Welcome Message box
+-------------------------*/
+.welcome-message {
+	margin-bottom:80px;
+}
+.home2 .welcome-message {
+	padding-top:60px;
+	border-bottom:1px solid #ededed;
+}
+.home2 .main-banner {
+	margin-bottom:0px;
+}
+.welcome-message h2 {
+	margin-bottom:5px;
+}
+.welcome-message h5 {
+	margin-bottom:17px;
+}
+.welcome-message .button {
+	margin-bottom:0px;
+}
+.highlight-box {
+	width:100%;
+	background-color:#ffa81d;
+	color:#FFF;
+	padding:15px;
+	position:relative;
+}
+.highlight-box p {
+	color:#FFF;
+}
+.highlight-box i {
+	font-size:50px;
+	margin-bottom:15px;
+}
+.highlight-box h2 {
+	font-size:16px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+.highlight-box h2 span {
+	color:#97876d;
+}
+.highlight-box::after {
+	content: "";
+    background: url('images/help/news1.jpg');
+    background-size:cover;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+/*-------------------------
+  06.3 - Section title
+-------------------------*/
+.section-title h2 {
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1.6rem;
+}
+.section-title h2 span {
+	padding-bottom:10px;
+	border-bottom:0.5px solid;
+	margin-bottom:50px;
+	display:block;
+}
+.section-description {
+	max-width:900px;
+	text-align:center;
+	margin:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.section-description p {
+	 margin-bottom:50px;
+}
+/*-------------------------
+  06.4 - Tabs Styling
+-------------------------*/
+.tabs-panel {
+	padding:0px;
+}
+.tabs-content, .tabs {
+	border:0px;
+}
+.tabs {
+	text-align:center;
+	margin-bottom:50px;
+}
+.tabs li {
+	float:none;
+	display:inline;
+}
+.tabs li a {
+	font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+	text-align:center;
+	font-weight:bold;
+	padding:0px 10px;
+	text-transform:uppercase;
+}
+.tabs .is-active a, .tabs li a:hover {
+	background:transparent;
+}
+/*-------------------------
+  Userful Elements End
+-------------------------*/
+
+/*-------------------------
+  07 - Page loading animation
+-------------------------*/
+.container {
+	height:100%;
+	overflow:hidden;
+ }
+.boxed {
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 6px 1px #CCC;
+}
+.shadow {
+	box-shadow: 0px 0px 2px 1px #CCC;
+	padding:10px;
+}
+.new-patient-offer .shadow {
+	padding:5px;
+}
+body.box {
+    background-image: url(images/help/bodybg.jpg);
+    background-repeat: repeat;
+}
+.loaded {
+	height:auto;
+	overflow-y:visible;
+}
+.preloader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	z-index:1200;
+}
+.cssload-thecube {
+	width: 74px;
+	height: 74px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin: 0 auto;
+	margin-top:-37px;
+	margin-left:-37px;
+	z-index:999999933;
+	transform: rotateZ(45deg);
+		-o-transform: rotateZ(45deg);
+		-ms-transform: rotateZ(45deg);
+		-webkit-transform: rotateZ(45deg);
+		-moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+	position: relative;
+	transform: rotateZ(45deg);
+		-o-transform: rotateZ(45deg);
+		-ms-transform: rotateZ(45deg);
+		-webkit-transform: rotateZ(45deg);
+		-moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+}
+.cssload-thecube .cssload-cube:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	animation: cssload-fold-thecube 2.76s infinite linear both;
+		-o-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-ms-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-webkit-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-moz-animation: cssload-fold-thecube 2.76s infinite linear both;
+	transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-webkit-transform-origin: 100% 100%;
+		-moz-transform-origin: 100% 100%;
+}
+.cssload-thecube .cssload-c2 {
+	transform: scale(1.1) rotateZ(90deg);
+		-o-transform: scale(1.1) rotateZ(90deg);
+		-ms-transform: scale(1.1) rotateZ(90deg);
+		-webkit-transform: scale(1.1) rotateZ(90deg);
+		-moz-transform: scale(1.1) rotateZ(90deg);
+}
+.cssload-thecube .cssload-c3 {
+	transform: scale(1.1) rotateZ(180deg);
+		-o-transform: scale(1.1) rotateZ(180deg);
+		-ms-transform: scale(1.1) rotateZ(180deg);
+		-webkit-transform: scale(1.1) rotateZ(180deg);
+		-moz-transform: scale(1.1) rotateZ(180deg);
+}
+.cssload-thecube .cssload-c4 {
+	transform: scale(1.1) rotateZ(270deg);
+		-o-transform: scale(1.1) rotateZ(270deg);
+		-ms-transform: scale(1.1) rotateZ(270deg);
+		-webkit-transform: scale(1.1) rotateZ(270deg);
+		-moz-transform: scale(1.1) rotateZ(270deg);
+}
+.cssload-thecube .cssload-c2:before {
+	animation-delay: 0.35s;
+		-o-animation-delay: 0.35s;
+		-ms-animation-delay: 0.35s;
+		-webkit-animation-delay: 0.35s;
+		-moz-animation-delay: 0.35s;
+}
+.cssload-thecube .cssload-c3:before {
+	animation-delay: 0.69s;
+		-o-animation-delay: 0.69s;
+		-ms-animation-delay: 0.69s;
+		-webkit-animation-delay: 0.69s;
+		-moz-animation-delay: 0.69s;
+}
+.cssload-thecube .cssload-c4:before {
+	animation-delay: 1.04s;
+		-o-animation-delay: 1.04s;
+		-ms-animation-delay: 1.04s;
+		-webkit-animation-delay: 1.04s;
+		-moz-animation-delay: 1.04s;
+}
+@keyframes cssload-fold-thecube {
+	0%, 10% {
+		transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-o-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-o-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-o-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-ms-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-ms-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-ms-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-webkit-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-webkit-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-webkit-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-moz-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-moz-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-moz-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+/*-------------------------
+  Page loading animation End
+-------------------------*/
+
+
+/*-------------------------
+  08 - Meet your Team
+       starts
+-------------------------*/
+.meet-your-team {
+    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.vet-image {
+	border-radius:100%;
+	position:relative;
+}
+.vet-image img {
+	border-radius:100%;
+}
+.vet-info h4 {
+	text-align:center;
+	font-weight:normal;
+}
+.vet-info h4 a {
+	font-size:1rem;
+}
+.vet-info h4 span {
+	font-size:0.875rem;
+}
+.vet-image:hover>a img {
+	opacity:.1;
+}
+.team-wrap .vet-social {
+	position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 290px;
+    margin: auto;
+    font-size: 30px;
+    left: 50%;
+    margin-left: -140px;
+	opacity:0;
+}
+.vt-icons {
+	width:170px;
+	margin:auto;
+}
+.vt-icons a {
+	font-size:1rem;
+}
+.team-wrap .vet-social .vt-icons a {
+	text-align:center;
+	border:1px solid;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+	line-height:40px;
+	margin-left:8px;
+	margin-right:8px;
+	border-radius:100%;
+}
+.team-wrap .vet .vet-image:hover>.vet-social {
+	opacity:1;
+}
+/*-------------------------
+  Meet your Team Section End
+-------------------------*/
+
+/*-------------------------
+  09 - Services Section
+       start
+-------------------------*/
+.services-wrap {
+	margin-bottom:80px;
+}
+.services h5 {
+	font-weight:bold;
+}
+.content-area .service {
+	margin-bottom:40px;
+}
+.content-area .service:nth-last-child(-n+3) {
+    margin-bottom:0px;
+}
+.content-area .block-image {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.services .service {
+	padding:5px;
+}
+.service img {
+	width:100%;
+	height:auto;
+}
+.block-image {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+/*-------------------------
+  services Section End
+-------------------------*/
+
+/*-------------------------
+  10 - Testimonials Starts
+-------------------------*/
+.testimonials {
+	margin-bottom:80px;
+	padding-top:60px;
+	padding-bottom:60px;
+	display: block;
+	position: relative;
+}
+.testimonials::after {
+  content: "";
+  background:url('images/help/notgeneric_bg1.jpg');
+  background-size:cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.testimonials .section-title h2 span {
+	border-bottom:0.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.testimonial img {
+	border-radius:100%;
+	max-height:70px;
+	max-width:70px;
+	margin-right:15px;
+	margin-top:15px;
+}
+.testimonial cite {
+	line-height:70px;
+	font-weight:bold;
+	margin-top:15px;
+}
+.testimonial h5 {
+	font-weight:normal;
+	padding: .5625rem 1.25rem 0 1.1875rem;
+}
+.testimonial-wrap .owl-prev , .testimonial-wrap .owl-next {
+    position: relative;
+}
+.testimonial-wrap .owl-prev:hover , .testimonial-wrap .owl-next:hover {
+    position: relative;
+}
+.testimonial-wrap .owl-next {
+	float:left;
+	right:0px;
+	margin-left:5px;
+}
+.testimonial-wrap .owl-prev {
+	float:left;
+	left:0px;
+	margin-right:5px;
+}
+.testimonial-wrap .owl-controls {
+	margin-top:10px;
+}
+.testimonial blockquote, .testimonial-page blockquote {
+	border-left:0px;
+}
+/*-------------------------
+  Testimonials Ends
+-------------------------*/
+
+/*-------------------------
+  11 - Pricing Tables
+       Starts
+-------------------------*/
+.new-patient-offer {
+	margin-bottom:80px;
+}
+.active-tb {
+    position: relative;
+    box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+    transform: scale(1);
+    border: 0;
+    transition: 0.4s ease;
+    z-index: 13;
+}
+.price-img {
+	position:relative;
+}
+.price-img img {
+	z-index:2;
+}
+.price-img h2 span {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	display:block;
+	text-transform:uppercase;
+	color:#FFF;
+	top:50%;
+	margin-top:-12px;
+	background-color:rgba(35, 10, 16, 0.7);
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.price-img h2 {
+	position:absolute;
+	top:0px;
+	display:table-cell;
+	text-align:center;
+	width:100%;
+	height:100%;
+	z-index:5;
+	background-color:rgba(35, 10, 16, 0.3);
+	font-size:1.5rem;
+}
+.pricing-table {
+    border: solid 1px;
+    margin-left: 0;
+    margin-bottom: 1.25rem;
+}
+.pricing-table .title {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.9375rem 1.25rem;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.pricing-table * {
+    list-style: none;
+    line-height: 1;
+}
+.pricing-table .bullet-item {
+    border-bottom: solid 1px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0.9375rem;
+    text-align: center;
+}
+.pricing-table .price {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 0.9375rem 1.25rem;
+    text-align: center;
+}
+.pricing-table .bullet-item span {
+	display:block;
+}
+.pricing-table .cta-button {
+     padding: 1.25rem 1.25rem 0;
+    text-align: center;
+}
+.active-tb:hover {
+	position: relative;
+	box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+	border: 0;
+	z-index: 15;
+}
+.pricing-table .description {
+    padding: 0.9375em;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    border-bottom: solid 1px;
+	text-transform:uppercase;
+}
+/*-------------------------
+  Pricing Tables ends
+-------------------------*/
+
+/*-------------------------
+  12 - Products Section
+       CSS
+-------------------------*/
+.our-store {
+	margin-bottom:80px;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.our-store .price {
+	font-size:15px;
+	text-align:center;
+}
+.our-store h6 {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.our-store h6 a {
+	font-size:1rem;
+}
+.price .old {
+	margin-left:15px;
+	font-weight:normal;
+	font-size:90%;
+	text-decoration:line-through;
+}
+.our-store img {
+	width:100%;
+	height:auto;
+}
+.our-store .pro-rating {
+	text-align:center;
+	margin-top:10px;
+}
+.product-img {
+	position:relative;
+	min-height:320px;
+	width:100%;
+}
+.product-img img {
+	overflow:hidden;
+	min-height:320px;
+	width:100%;
+}
+.product-img .sale {
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	padding:10px 10px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.pro-buttons {
+	position:absolute;
+	bottom:40px;
+	left:0px;
+	width:100%;
+}
+.pro-buttons a {
+	font-size:1.2rem;
+}
+.pro-buttons, .add-to-cart-top {
+	opacity:0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+.single-product:hover>.product-img .pro-buttons, .single-product:hover>.product-img .add-to-cart-top {
+	opacity:1;
+}
+.pro-buttons ul {
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+.pro-buttons ul li {
+	display:inline;
+	margin-left:11px;
+	margin-right:11px;
+}
+.pro-buttons a {
+	text-align:center;
+}
+.add-to-cart-top .button {
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	margin:0px;
+}
+.pro-buttons, .add-to-cart-top {
+	opacity:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+  	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+}
+.single-product:hover>.product-img .pro-buttons, .single-product:hover>.product-img .add-to-cart-top {
+	opacity:1;
+}
+.single-product {
+	padding-top:0px;
+	padding-bottom:30px;
+}
+.our-store .single-product {
+	padding-bottom:0px;
+}
+.page-filter {
+	padding-top:15px;
+	margin-top:15px;
+	border-top:1px solid;
+}
+.page-filter .pagination {
+	text-align:center;
+}
+.single-shop .our-store {
+	margin-bottom:0px;
+}
+.product-thumbnail img {
+	width:100%;
+	height:auto;
+}
+.product-meta {
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:25px;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	font-size:0.875rem;
+}
+.product-share {
+	padding-top:15px;
+	border-top:1px solid;
+}
+.add-cart-option {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.add-cart-option input[type=number] {
+	max-width:75px;
+	float:left;
+	margin-right:20px;
+}
+.product-detail .price {
+	font-size:1.25rem;
+	font-weight:bold;
+}
+.qty {
+	max-width:75px;
+}
+.cart-item .product-thumbnail img {
+	height:100px !important;
+	width:auto;
+}
+.apply-coupon {
+	margin-top:15px;
+}
+/*-------------------------
+  Products Section End
+-------------------------*/
+
+/*-------------------------
+  13 - Latest News Starts
+-------------------------*/
+.latest-news {
+	margin-bottom:80px;
+}
+.latest-news h4 {
+	font-weight:bold;
+	margin-bottom:0px;
+}
+.latest-news h4 a {
+	font-size:1.25rem;
+}
+.post-meta p {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.news-row {
+	margin-bottom:25px;
+}
+.latest-news .news:hover>.featured-image img {
+	opacity:.5;
+}
+.news-style2 h4 {
+	font-size:30px;
+}
+.news-style2 .news {
+	margin-bottom:25px;
+}
+.news-style2 .post-meta {
+	margin-bottom:25px;
+}
+.load-more {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+}
+/*-------------------------
+  Latest News End
+-------------------------*/
+
+/*-------------------------
+  14 - Reasons Section
+-------------------------*/
+.reason-section {
+	margin-bottom:80px;
+}
+.reason-section .testimonials {
+	margin-bottom:0px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.reason-section .medium-8 {
+	padding-left:0px;
+}
+.boxed .reason-section .medium-8 {
+	padding-left:auto;
+}
+.accordion {
+	border:0px;
+}
+.accordion-title {
+	font-weight:bold;
+	font-size:14px;
+	padding-left:0rem;
+	border:0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.accordion-content {
+	border:0px;
+	padding-left:0px;
+}
+.accordion {
+	margin-bottom:0px;
+}
+.accordion li {
+	margin-bottom:10px;
+}
+.accordion li:last-child {
+	margin-bottom:0px;
+}
+.accordion-content {
+	padding:10px;
+}
+.accordion-title {
+	padding:10px;
+}
+/*-------------------------
+  Reasons Section End
+-------------------------*/
+
+/*-------------------------
+  15 - Page Styles
+-------------------------*/
+.content-area {
+	margin-bottom:80px;
+}
+.content-area p:last-child {
+	margin-bottom:0px;
+}
+.testimonial-page .thumbnail {
+	box-shadow: 0 0 6px 1px rgb(234, 234, 234);
+}
+.appointment-form {
+	margin-bottom:0px;
+	padding-bottom:60px;
+}
+.team-section {
+	margin-bottom:80px;
+}
+.staff-detail .button {
+	margin-bottom:0px;
+}
+.staff-detail h4 {
+	margin-top:10px;
+}
+.staff-detail h4 span {
+	font-weight:normal;
+	font-size:1rem;
+}
+.staff-detail h4 a {
+	font-size:1.25rem;
+}
+.contact-page h2 {
+	margin-top:20px;
+}
+.contact-page h4 {
+	padding-bottom:10px;
+	margin-bottom:15px;
+	border-bottom:1px solid;
+}
+/*-------------------------
+  Page Styles Ends
+-------------------------*/
+
+/*-------------------------
+  16 - Blog Page Styles
+-------------------------*/
+.post-meta {
+	padding-bottom:15px;
+	padding-top:15px;
+	font-size:0.75rem;
+}
+.featured-image .thumbnail {
+	margin-bottom:0px;
+}
+.latest-news .featured-image .thumbnail {
+	margin-bottom:15px;
+}
+.latest-news .post-meta {
+	padding:0px;
+}
+.tags {
+	list-style:none;
+	margin-left:0px;
+	margin-bottom:0px;
+}
+.tags li {
+	display:inline;
+	padding-left:7px;
+	padding-right:7px;
+}
+.tags li:first-child {
+	padding-left:0px;
+}
+.sharing-posts {
+	border-top:1px solid;
+	border-bottom:1px solid;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.post-share a {
+	padding-left:10px;
+	padding-right:10px;
+}
+.author-box {
+	margin-bottom:25px;
+	padding-bottom:25px;
+	border-bottom:1px solid;
+}
+.blog .blog-post {
+	margin-bottom:40px;
+	padding-bottom:30px;
+	border-bottom:1px solid;
+}
+.pagination .current {
+	padding:0px;
+}
+/*-------------------------
+  Blog Page Styles Ends
+-------------------------*/
+
+
+/*-------------------------
+  17 - Title Section CSS
+       starts
+-------------------------*/
+.title-section {
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-bottom:80px;
+	position:relative;
+}
+.title-section::after {
+	content: "";
+	background:url('images/help/title-bg.jpg');
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+.title-section h1 {
+	text-transform:uppercase;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.title-section ul {
+	margin:0px;
+}
+.breadcrumbs li, .breadcrumbs li a {
+	font-size:0.65rem;
+}
+.single-post .breadcrumbs li, .single-post .breadcrumbs li a {
+	line-height:25px;
+}
+.single-post .breadcrumbs {
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+.progress .sixty-five {
+	width:65%;
+}
+.progress .seventy-five {
+	width:75%;
+}
+.progress .eighty-five {
+	width:85%;
+}
+.progress .ninty-five {
+	width:95%;
+}
+/*-------------------------
+  Title Section CSS Ends
+-------------------------*/
+
+/*-------------------------
+  18 - 404 Page CSS Starts
+-------------------------*/
+.pageerror {
+	border-top:1px solid;
+}
+.pageerror h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 133px;
+}
+.pageerror h2 {
+    text-align: center;
+}
+.error-page-form {
+	margin:auto !important;
+	margin-top:30px;
+	float:none !important;
+}
+/*-------------------------
+  404 Page CSS End
+-------------------------*/
+
+/*-------------------------
+  19 - Sidebars CSS
+-------------------------*/
+.sidebar .icon-box {
+	margin-bottom:25px;
+}
+.sidebar .testimonials {
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.widget {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	margin-bottom:25px;
+	padding:15px;
+}
+.widget h2 {
+	font-size: 1.2rem;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+	padding-bottom:10px;
+}
+.widget .button, .search input[type=text] {
+	margin-bottom:0px;
+}
+.widget .tags li {
+	padding-left:0px;
+	padding-right:0px;
+}
+.widget .tags li a {
+	padding:5px 10px;
+	text-wrap:suppress;
+	white-space: nowrap;
+	margin:5px;
+	display:inline-block;
+}
+.widget .popular-post {
+	margin-bottom:8px;
+	margin-top:8px;
+}
+.widget .popular-post p {
+	margin-top:5px;
+}
+.widget .popular-post img {
+	margin-right:10px;
+}
+/*-------------------------
+  Sidebars CSS Ends
+-------------------------*/
+
+/*-------------------------
+  20 - Footer
+-------------------------*/
+.footer {
+	width:100%;
+	position:relative;
+}
+.footer::after {
+	content: "";
+    background: url('images/help/backy.jpg');
+    background-size:cover;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.footer h2 {
+	font-size:19px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.tx-div {
+    width: 45px;
+    display: block;
+    height: 3px;
+    opacity: .8;
+    margin: 10px 0 15px;
+}
+.footerTop {
+	 padding-top:60px;
+	 padding-bottom:60px;
+}
+.footerTop ul {
+	margin:0px;
+	list-style:none;
+}
+.vertical li a {
+	padding:8px 0px;
+
+}
+.footerbottom {
+	width:100%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.footerbottom ul {
+	margin:0px;
+}
+.footerbottom ul li a {
+	border-right:1px solid;
+	padding:0px 10px;
+}
+.footerbottom ul li:first-child a {
+	padding-left:0px;
+}
+.footerbottom ul li:last-child a {
+	border:0px;
+	padding-right:0px;
+}
+.copyrightinfo {
+	font-size:15px;
+}
+.address i {
+    width: 45px;
+    height: 45px;
+    border: 2px solid;
+    font-size: 1.2857142857142858em;
+    text-align: center;
+    line-height: 41px;
+    float: left;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+}
+.address h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+	font-weight:bold;
+}
+.footer ul {
+	margin:0px;
+}
+.office-hours li {
+	padding-bottom:10px;
+}
+.footer-widget input[type=text] {
+	height:40px;
+	max-width:230px;
+}
+.socialicons {
+	line-height:25px;
+	font-size:18px;
+	font-weight:bold;
+}
+.socialicons a {
+	margin-right:5px;
+	margin-left:5px;
+}
+#top {
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 0px 8px 6px;
+    font-size: 27px;
+    opacity: .9;
+    z-index: 99;
+	display:none;
+}
+/*-------------------------
+  Footer CSS ends here
+-------------------------*/
+
+/*-------------------------
+  21 - Mobile Adjustments
+       Media Queries
+-------------------------*/
+@media only screen and (max-width: 40em) {
+.boxed {
+	max-width:100%;
+	margin:auto;
+	border-left:0px;
+	border-right:0px;
+}
+.logo img {
+	height:90px;
+	width:auto;
+}
+.action-box {
+	padding-left:0px;
+	font-size:12px;
+}
+.top-bar {
+	width:100%;
+	padding:0px;
+}
+.well, .well .contact-btns {
+	text-align:center;
+}
+.well .fa {
+	display:none;
+}
+.top-bar-title {
+	margin-right: 0px;
+    width: 20px;
+    margin: auto;
+    float: none;
+}
+.top-bar ul {
+	width:100%;
+	margin-top:10px;
+}
+.top-bar ul li a {
+	padding-left:15px;
+}
+.top-bar ul ul li a {
+	padding-left:25px;
+}
+.nav-wrap {
+	position:relative;
+}
+.search-wrap {
+	position:absolute;
+	top:-21px;
+	right:50%;
+	margin-right:-20px;
+	font-size:20px;
+}
+.menu-icon.dark {
+	margin-left:-25px;
+}
+.reason-section .medium-8 {
+	padding-left:0.625rem;
+}
+.owl-prev , .owl-next {
+    position: relative;
+}
+.owl-prev:hover , .owl-next:hover {
+    position: relative;
+}
+.owl-next {
+	float:left;
+	right:0px;
+	margin-left:5px;
+}
+.owl-prev {
+	float:left;
+	left:0px;
+	margin-right:5px;
+}
+.owl-controls {
+	margin-top:10px;
+}
+
+/*-------------------------
+  21.1 Top Navigation CSS
+-------------------------*/
+.brands-wrap .owl-controls {
+	margin-top:10px;
+}
+.services-wrap .services {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*-------------------------
+  21.2 Footer Settings
+-------------------------*/
+.footer-widget {
+	margin-bottom:15px;
+}
+.footerbottom ul {
+	text-align: center;
+    width: 100%;
+    border-bottom: 0px;
+}
+.copyrightinfo {
+	text-align:center;
+}
+.time-table {
+	text-align:center;
+}
+.logo {
+	text-align:center;
+	margin:auto;
+}
+.logo-small {
+	text-align:center;
+}
+.row .small-12 {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.row .small-12:last-child {
+	margin-bottom:0px;
+}
+.row .small-12:first-child {
+	margin-top:0px;
+}
+.top-int-bar .small-12, .info-boxes .small-12, .footerbottom .small-12, .latest-news .button, .news .small-12 {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.text-medium-right {
+	text-align:center !important;
+}
+.topbar .socialicons {
+	text-align:center;
+}
+.call-to-action i {
+	display:block;
+	margin:auto;
+	margin-bottom:15px;
+}
+.call-to-action h2 {
+	text-align:center;
+}
+.call-to-action h2 span {
+	margin-left:10px;
+}
+.call-to-action .button {
+	display:table;
+	margin:auto;
+}
+}
+/*-------------------------
+  Mobile Adjustments
+  Media Queries
+-------------------------*/

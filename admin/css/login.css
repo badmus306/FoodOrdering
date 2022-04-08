@@ -1,0 +1,132 @@
+.cbp-spmenu-push div#page-wrapper {
+    margin: 0 0 0 13.5em;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+}
+
+#page-wrapper {
+    padding: 5em 2em 2.5em;
+    background-color: #F1F1F1;
+}
+
+.login-page {
+    width: 40%;
+    margin: 1em auto 0;
+}
+.signup-page h2.title1 {
+    text-align: center;
+    padding: 1em;
+    background: #3bbdf0;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+    color: #fff;
+    font-size: 1.6em;
+}
+.widget-shadow {
+    background-color: #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    -moz-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
+.login-body {
+    padding: 4em 2em;
+}
+.login-page input[type="text"], .login-page input[type="password"] {
+    font-size: 1em;
+    padding: 14px 15px 14px 37px;
+    width: 100%;
+    color: #A8A8A8;
+    outline: none;
+    border: 1px solid #D3D3D3;
+    background: #FFFFFF;
+    margin: 0em 0em 1.5em 0em;
+}
+.registration {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 16px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    color: inherit;
+}
+input {
+    line-height: normal;
+}
+.login-page input[type="submit"] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #F2B33F;
+    width: 40%;
+    padding: .6em 1em;
+    font-size: 1em;
+    margin: 0.5em auto 0;
+    display: block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.registration {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 16px;
+}
+.forgot a {
+    font-size: 1em;
+    color: #555;
+    display: block;
+}
+.login-page label.checkbox {
+    margin-left: 1.3em;
+    font-size: 1em;
+    color: #555;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+}
+.login-page label.checkbox {
+    margin: 0 0 0 1.3em;
+        margin-left: 1.3em;
+    font-size: 1em;
+    color: #555;
+    font-weight: 400;
+    display: inline-block;
+    float: left;
+}
+.footer {
+    background: #fff;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
+    -ms-box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
+    -o-box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main-content {
+    position: relative;
+}
+.login-page h2.title1, .signup-page h2.title1 {
+    text-align: center;
+    padding: 1em;
+    background: #3bbdf0;
+    border-bottom: 10px solid #0d86bf;
+    margin: 0;
+    color: #fff;
+    font-size: 1.6em;
+}

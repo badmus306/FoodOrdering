@@ -1,0 +1,500 @@
+/*=============================================================
+    TABLE OF CONTENTS FOR COLORS
+    =============================
+    01 - General & Basic Colors
+	02 - Top Bar CSS
+    03 - HEADER CSS Starts 
+    04 - Banner Style CSS
+    05 - Userful Elements
+    06 - Page loading animation
+    07 - Meet your Team starts
+    08 - Testimonials Starts
+    09 - Pricing Tables Starts
+    10 - Products Section CSS
+    11 - Reasons Section
+    12 - Page Styles
+    13 - Blog Page Styles
+    14 - Title Section CSS starts
+    15 - 404 Page CSS Starts
+    16 - Sidebars CSS
+    17 - Footer
+    18 - Mobile Adjustments Media Queries
+  =============================================================*/
+  
+  
+/*-------------------------
+  01 - General & Basic 
+       Colors
+-------------------------*/
+body {
+	color:#818A87;
+}
+label, p, ul, ol, a, blockquote, input, textarea, select, [type=date], [type=text], [type=email] { 
+	color:#5d5d5d;
+}
+h1,h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color:#3b3d42;
+}
+a {
+	color:#3b3d42; 
+}
+a:hover {
+	color:#5d5d5d; 
+}
+.button.primary {
+	background-color:#3b3d42; 
+}
+.button.primary:hover {
+	background-color:#230A10; 
+}
+.primary.bordered-light {
+	background-color:transparent;
+	border-color:#FFF !important; 
+}
+.primary.bordered-light:hover {
+	background-color:#230A10;
+	border-color:#230A10 !important; 
+}
+.primary.bordered-dark {
+	background-color:transparent;
+	border-color:#5d5d5d !important; 
+	color:#5d5d5d;
+}
+.primary.bordered-dark:hover {
+	background-color:#3b3d42;
+	border-color:#3b3d42 !important; 
+	color:#FFF;
+}
+/*Crousel Controls Default Style*/
+.owl-prev:hover, .owl-next:hover {
+	background:#371E22;
+	color:#FFF; 
+}
+/*-------------------------
+  General & Basic Styles End
+-------------------------*/
+
+/*------------------------
+  02 - Top Bar CSS
+-----------------------*/
+.topbar {
+	background-color:#f7f7f7;
+	border-bottom-color:#ededed !important;
+}
+/*---------------------------
+  Top Bar CSS ends
+---------------------------*/
+
+/*--------------------------
+  03 - HEADER CSS Starts 
+--------------------------*/
+.top-bar, .top-bar ul {
+	background-color:transparent; 
+}
+.top-bar ul .first-sub { 
+	border-top-color:#0a68b1 !important;
+}
+.top-bar ul li a {
+	color:#3b3d42;
+}
+.is-active a, .top-bar ul li a:hover {
+	color:#FFF !important;
+	background-color:#0a68b1; 
+}
+.is-active ul a {
+	background-color:#FFF; 
+	color:#3b3d42 !important;
+}
+.menu .active>a {
+	 background-color:#0a68b1;
+	 color:#FFF;
+}
+.top-bar h4 {
+	border-bottom-color:#0a68b1 !important;
+}
+.single-sub ul li a {
+	border-bottom-color:#3b3d42 !important; 
+}
+/*---------------------------
+  HEADER CSS Ends
+---------------------------*/
+
+
+/*-------------------------
+  04 - Banner Style CSS
+-------------------------*/
+.rev_slider_wrapper { 
+	background-color:transparent;
+}
+.layer1 {
+	background-color:rgba(0, 0, 0, 0.25);
+	border-color:rgba(0, 0, 0, 1.00); 
+}
+.layer3 {
+	background-color:#0a68b1 !important;
+	color:#fff !important;
+}
+.layer4 a {
+	color:#FFF; 
+}
+.layer4:hover {
+	background-color:#0a68b1 !important;
+	border-color:#0a68b1 !important;  
+}
+.tp-bannertimer {
+	background-color: rgba(255, 255, 255, 0.25) !important;
+}
+/*-------------------------
+  Banner Style CSS Ends
+-------------------------*/
+
+/*-------------------------
+  05 - Userful Elements
+------------------------*/
+.icon-box .icon-side {
+	color:#FFF !important;
+	background-color: #ffa81d;
+}
+.info-side p strong {
+	color:#371e22 !important;
+}
+.call-to-action { 
+	background-color:#f7f7f7 !important;
+	border-top:1px solid #ededed;
+	border-bottom:1px solid #ededed;
+}
+.call-to-action h2 {
+}
+/*Welcome Message box*/
+.home2 .welcome-message {
+	background-color:#FAFAFA;
+}
+/*Section title*/
+.section-title h2 span {
+	border-color:#EAEAEA !important; 
+}
+.tabs { 
+	background-color:transparent;
+}
+.tabs .is-active a, .tabs li a:hover {
+	color:#524b40 !important; 
+	background:transparent;
+}
+/*-------------------------
+  Userful Elements End
+------------------------*/
+
+/*-------------------------
+  06 - Page loading 
+       animation
+------------------------*/
+.boxed {
+	background-color:#FFF;
+}
+.preloader {
+	background-color:#EAEAEA;
+}
+.cssload-thecube .cssload-cube:before {
+	background-color: #0a68b1;
+}
+/*-------------------------
+  Page loading animation End
+------------------------*/
+
+
+/*-------------------------
+  07 - Meet your Team starts
+------------------------*/
+.meet-your-team {
+    background: #f7f7f7;
+	border-top:1px solid #ededed;
+	border-bottom:1px solid #ededed;
+}
+.meet-your-team h2 span {
+	border-color:#ededed !important;	
+}
+.vet-info h4 a:hover {
+	color:#524B40 !important; 
+}
+.team-wrap .vet-social {
+	color:#371e22;
+}
+.team-wrap .vet-social .vt-icons a {
+	color:#FFF;
+}
+.team-wrap .vet-social a:hover {
+	background-color:#371e22;
+	color:#FFF !important; 
+}
+.tabs-content .is-active a {
+	background-color:transparent; 
+	color:#371e22 !important;
+}
+/*-------------------------
+  Meet your Team Section End
+------------------------*/
+
+
+/*-------------------------
+  08 - Testimonials Starts
+---------------------------*/
+.testimonials {
+	border-color:#FFF !important;
+	background-color:rgba(35, 10, 16, 0.9);
+}
+.testimonials::after {
+  background-color:#666;
+}
+.testimonials .section-title h2 {
+	color:#FFF; 
+}
+.testimonials .section-title h2 span {
+	border-bottom-color:#EAEAEA !important;
+}
+.dark-testi .testimonial blockquote, .dark-testi .testimonial h5, .dark-testi .testimonial cite {
+	color:#FFF; 
+}
+/*-------------------------
+  Testimonials Ends
+---------------------------*/
+
+/*---------------------
+  09 - Pricing Tables Starts
+/*---------------------*/
+.pricing-table {
+    border-color:#EAEAEA !important;
+	background-color:#FFF;
+}
+.pricing-table .title {
+	background-color:#f7f7f7;
+	border:1px solid #ededed;
+	color:#3b3d42;
+}
+.pricing-table .bullet-item {
+    border-bottom-color: #EAEAEA !important;
+}
+.pricing-table .bullet-item:hover {
+	background-color:#818A87;
+	color:#FFF; 
+}
+.pricing-table .description {
+    border-bottom-color:#ededed !important;
+	color:#371e22;
+}
+/*---------------------
+  Pricing Tables ends
+/*---------------------*/
+
+/*---------------------
+  10 - Products Section CSS
+----------------------*/
+.our-store {
+	background-color: #f7f7f7;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.our-store .section-title h2 span {
+	border-bottom-color:#ededed !important; 
+}
+.product-img .sale {
+	background:#524B40;
+	color:#FFF;
+}
+.pro-buttons {
+	background:#818A87;
+	color:#FFF;
+}
+.pro-buttons a {
+	color:#FFF; 
+}
+.pro-buttons a:hover {
+	color:#524B40; 
+}
+.page-filter {
+	border-top-color:#ededed !important; 
+}
+.product-meta {
+	border-top-color:#ededed !important;
+	border-bottom-color:#ededed !important;
+}
+.product-share {
+	border-top-color:#ededed !important; 
+}
+.product-detail .price {
+	color:#3b3d42;
+}
+/*---------------------
+  Products Section End
+----------------------*/
+
+/*-----------------------
+  11 - Reasons Section
+-------------------------*/
+.accordion-title {
+	background-color:#ededed;
+	color:#2b2d32;
+}
+.is-active .accordion-title, .accordion-title:hover {
+	background-color:#2b2d32; 
+	color:#FFF;
+}
+.accordion-content {
+	background-color:#f7f7f7;
+}
+/*-----------------------
+  Reasons Section End
+-------------------------*/
+
+/*------------------------
+  12 - Page Styles
+-------------------------*/
+.testimonial-page .test-wrap .testimonial { 
+	color:#818A87;
+}
+.contact-page h4 {
+	border-bottom-color:#ededed !important; 
+}
+/*------------------------
+  Page Styles Ends
+-------------------------*/
+
+/*------------------------
+  13 - Blog Page Styles
+-------------------------*/
+.sharing-posts {
+	background-color:#FFF;
+	border-top-color:#ededed !important;
+	border-bottom-color:#ededed !important;
+}
+.author-box {
+	border-bottom-color:#EDEDED !important;
+}
+.blog .blog-post {
+	border-bottom-colod:#ededed !important; 
+}
+.pagination .current {
+	background:#3b3d42;
+}
+.pagination .current a {
+	color:#FFF; 
+}
+.pagination .current a:hover {
+	background-color:#3b3d42; 
+}
+/*------------------------
+  Blog Page Styles Ends
+-------------------------*/
+
+
+/*---------------------------
+  14 - Title Section CSS
+       starts
+---------------------------*/
+.title-section {
+	background-color:rgba(35, 10, 16, 0.7);
+}
+.title-section::after {
+	background-color:#666;
+}
+.title-section h1 {
+	color:#FFF;
+}
+.breadcrumbs li, .breadcrumbs li a {
+	color:#FFF;
+}
+/*---------------------------
+  Title Section CSS Ends
+---------------------------*/
+
+/*----------------------
+  15 - 404 Page CSS Starts
+--------------------------*/
+.pageerror {
+	border-top-color:#EAEAEA !important; 
+}
+/*----------------------
+  404 Page CSS End
+--------------------------*/
+
+/*----------------------
+  16 - Sidebars CSS
+--------------------------*/
+.widget {
+	background-color:#fdfdfd;
+	border-color: #ededed !important;
+}
+.widget h2 { 
+    border-bottom-color:#ededed !important;
+}
+.widget .tags li a {
+	background-color:#EAEAEA;
+}
+.widget .tags li a:hover {
+	color:#FFF;
+	background-color:#3b3d42; 
+}
+/*----------------------
+  Sidebars CSS Ends
+--------------------------*/
+
+/*---------------------------
+  17 - Footer
+----------------------------*/
+.footer {
+	background-color: rgba(35,10,16, 0.9);
+	color:#FFF;
+}
+.footer a {
+	color:#FFF; 
+}
+.footer p {
+	color:#FFF; 
+}
+.footer a:hover {
+	color:#818a87; 
+}
+.footer h2 {
+	color:#FFF;
+}
+.tx-div {
+	background-color:#FFF;
+}
+.footerTop ul { 
+	color:#FFF;
+}
+.footerbottom {
+	background:#230A10;
+	color:#818a87;
+}
+.footerbottom a {
+	color:#818a87; 
+}
+.footerbottom a:hover {
+	color:#FFF; 
+}
+
+.address i, .address h4 {
+	color:#FFF;
+}
+/*--------------------------
+  Footer CSS ends here
+---------------------------*/
+
+/*-------------------------------
+  18 - Mobile Adjustments Media 
+       Queries
+--------------------------------*/
+@media only screen and (max-width: 40em) {
+.top-bar ul {
+	background-color:#0a68b1;
+}
+.top-bar ul li a {
+	color:#FFF;
+}
+.is-accordion-submenu-parent>a:after {
+	border-color: #FFF transparent transparent !important; 
+}
+}
+/*-------------------------------
+Mobile Adjustments Media Queries
+--------------------------------*/
