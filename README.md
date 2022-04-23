@@ -1,5 +1,5 @@
 ## :stew: Food Order Website
- This course is completely dynamically and fully functional website created using PHP Programming language and MYSQL as the database.
+ This course is completely dynamically and fully functional website created using PHP Programming language and MYSQL as the database...
 
 ⚙️  **Technology Used**
 1. HTML5
